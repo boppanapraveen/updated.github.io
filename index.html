@@ -27,15 +27,21 @@
         nav a {
             float: left;
             display: block;
+            color: rgb(255, 255, 255); /* Improved contrast text color */
+            background-color: rgb(33, 33, 33); /* Adjusted background color for better contrast */
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            color: #fff; /* Set text color to white */
         }
 
-        /* Adjust the background color for better contrast */
-        nav a:hover {
-            background-color: #45a049; /* Darker green color on hover */
+        nav a.products {
+            color: rgb(255, 255, 255); /* Adjusted text color for better contrast */
+            background-color: rgb(33, 33, 33); /* Adjusted background color for better contrast */
+        }
+
+        nav a.contact {
+            color: rgb(255, 255, 255); /* Adjusted text color for better contrast */
+            background-color: rgb(33, 33, 33); /* Adjusted background color for better contrast */
         }
 
         section {
@@ -55,9 +61,9 @@
     </header>
 
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Products</a>
-        <a href="#">Contact</a>
+        <a href="#" style="color: rgb(0, 0, 0); background-color: rgb(76, 175, 80);">Home</a>
+        <a href="#" class="products">Products</a>
+        <a href="#" class="contact">Contact</a>
     </nav>
 
     <section>
